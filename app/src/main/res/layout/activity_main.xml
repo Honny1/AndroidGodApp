@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="192.168.2."
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/bon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LED ON"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/boff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LED OFF"
+        android:layout_weight="0.06" />
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_weight="0.06"/>
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_weight="0.06"/>
+</LinearLayout>
